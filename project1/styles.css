@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f0e6;
+    color: #2f3b2f;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5;
+}
+
+header {
+    padding: 18px;
+    background-color: #354c38;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 60px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    background-color: #354c38;
+}
+
+p,
+#apps {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
