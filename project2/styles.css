@@ -1,0 +1,46 @@
+header {
+    color: white;
+    border: .25rem dotted;
+    border-radius: 1rem;   
+    text-align: center;
+    border-color: #e8c574; 
+}
+body {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+button {
+    align-self: center;
+    padding: 1rem 5rem 1rem 5rem;
+    margin: 1rem;
+    border-radius: 2.5rem;
+    color: #e8c574;
+    background-color: black;
+    font-family: trattatello, fantasy ;
+    font-size: larger;
+}
+
+.poster-frame {
+    width: 40rem;
+    max-width: 100%;
+    aspect-ratio: 21/24;
+    margin: 1.5rem auto;
+    box-sizing: border-box;
+
+    border: 6px solid #e8c574;
+    padding: 0.4rem;
+    background-color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    place-items: center;
+}
+.poster-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.poster-frame img[hidden] {
+    display: none;
+}
