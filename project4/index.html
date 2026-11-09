@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Military Rifles</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>US Military Rifles! (A Database)</h1>
+    </header>
+    <button type="submit" id="single-rifle" form="specifics">Search for Rifle by ID</button>
+    <button type="button" id="showall">Show all Rifles</button>
+    <form id="specifics">
+        <input  id="specific-rifle" placeholder="eg. 10">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Cartridge</th>
+                <th>Action</th>
+                <th>Barrel</th>
+                <th>Adoption</th>
+                <th>Weight</th>
+                <th>Capacity</th>
+                <th>Branch</th>
+                <th>Actions</th>
+                
+                
+            </tr>
+        </thead>
+    
+        <tbody id="rifle-list">
+        </tbody>
+    </table>
+    
+    <form id="rifle-form">
+        <button type="button" id="clear-rifle">Clear Rifle Form</button>
+
+        <label for="id">ID</label>
+        <textarea  id="id" placeholder="Only Enter ID if Editing"></textarea>
+
+        <label for="name">Name</label>
+        <textarea  id="name" placeholder="Enter Name here" required></textarea>
+
+        <label for="cartridge">Cartridge</label>
+        <textarea  id="cartridge" placeholder="Enter Cartridge here" required></textarea>
+
+        <label for="action_type">Action Type</label>
+        <textarea  id="action_type" placeholder="Enter Action Type here" required></textarea>
+
+        <label for="barrel_length_in">Barrel Length (in Inches)</label>
+        <textarea  id="barrel_length_in" placeholder="Enter Barrel Length here" required></textarea>
+
+        <label for="adoption_year">Year of Adoption</label>
+        <textarea  id="adoption_year" placeholder="Enter Year of Adoption here" required></textarea>
+
+        <label for="weight_lb">Weight (in Pounds)</label>
+        <textarea  id="weight_lb" placeholder="Enter Weight here" required></textarea>
+
+        <label for="standard_capacity">Magazine Capacity (use belt for Beltfeds)</label>
+        <textarea  id="standard_capacity" placeholder="Enter Magazine Capacity here" required></textarea>
+
+        <label for="adoption_branch">Adopting Branch</label>
+        <textarea  id="adoption_branch" placeholder="Enter Adopting Branch here" required></textarea>
+
+        <button id="ser" type="submit">Save Edited Rifle</button>
+
+        <button type="submit" id="new-rifle">Add New Rifle</button>
+    </form>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
