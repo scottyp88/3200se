@@ -1,0 +1,21 @@
+# Python environment and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Temporary SQLite files; app.db is included for submission
+app.db-journal
+app.db-wal
+app.db-shm
+
+# Local editor and database browser settings
+.obsidian/
+.vscode/
+*.sqbpro
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example

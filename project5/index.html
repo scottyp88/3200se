@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Military Rifles Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>US Military Rifles! (A Database) Login/Account Creation</h1>
+    </header>
+    <form id="user-login-form">
+        <label for="login-user-email">Email</label>
+        <input id="login-user-email" type="email" placeholder="you@example.com" required>
+
+        <label for="login-user-pass">Password</label>
+        <input id="login-user-pass" type="password" placeholder="Enter your password" required>
+
+        <button type="submit" id="login">Login</button>
+    </form>
+
+    <form id="user-creation-form">
+        <label for="user-name">First Name</label>
+        <input id="user-name" type="text" placeholder="Enter First Name here" required>
+
+        <label for="user-lname">Last Name</label>
+        <input id="user-lname" type="text" placeholder="Enter Last Name here" required>
+
+        <label for="user-email">Email</label>
+        <input id="user-email" type="email" placeholder="you@example.com" required>
+
+        <label for="user-pass">Password</label>
+        <input id="user-pass" type="password" placeholder="Choose a password" required>
+
+        <button type="submit" id="new-user">Create Account</button>
+    </form>
+
+    <script src="auth.js"></script>
+</body>
+
+</html>
